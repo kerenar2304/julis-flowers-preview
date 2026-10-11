@@ -79,8 +79,8 @@ const ZONE=['רמלה','לוד','באר יעקב','נס ציונה','ראשון 
 /* reviews: paste real reviews here (from Google / Wolt) — the section renders whatever is in this list */
 const GOOGLE={rating:'5.0',url:'https://maps.google.com/?cid=5833729602735661632'};
 const REVIEWS=[
-  /* PLACEHOLDERS: replace with the real reviews the client sends */
-  {name:'שם הלקוח/ה', text:'כאן תופיע ביקורת אמיתית של לקוח/ה. משפט או שניים על הזר, המשלוח והחוויה.', source:'Google', stars:5},
-  {name:'שם הלקוח/ה', text:'כאן תופיע ביקורת אמיתית של לקוח/ה. משפט או שניים על הזר, המשלוח והחוויה.', source:'Google', stars:5},
-  {name:'שם הלקוח/ה', text:'כאן תופיע ביקורת אמיתית של לקוח/ה. משפט או שניים על הזר, המשלוח והחוויה.', source:'Wolt', stars:5}
+  /* real Google reviews (Oct 2026) */
+  {name:'אודל ע.', text:'מקום מהמם, שירות נדיב ופרחים עמידים מיוחדים ויפים', source:'Google', stars:5},
+  {name:'קורל ד.', text:'שירות נדיר ומוצרים נדירים!! ממליצה בחום!!', source:'Google', stars:5},
+  {name:'זוהר א.', text:'שירות מעולה וסחורה הכי יפה וטרייה שיש!!', source:'Google', stars:5}
 ];

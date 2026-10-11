@@ -106,7 +106,7 @@ header.site.scrolled{background:rgba(241,250,238,.88);backdrop-filter:blur(calc(
 .hx .btn-copper:hover{background:var(--copper)}
 .hx-trust{display:flex;flex-wrap:wrap;gap:calc(8*var(--u)) calc(22*var(--u));margin-top:calc(30*var(--u));font-size:calc(15*var(--u));opacity:.75}
 .hx-trust .stars{color:var(--copper);font-weight:400;letter-spacing:2px}
-.hx-art{position:absolute;inset-inline-end:-9.64%;bottom:0;width:64.7%;height:auto;aspect-ratio:765/573;pointer-events:none;clip-path:inset(-60% -60% 0 -60%)}
+.hx-art{position:absolute;inset-inline-end:-10.5%;bottom:0;width:69%;height:auto;aspect-ratio:765/573;pointer-events:none;clip-path:inset(-60% -60% 0 -60%)}
 .hx-bouquet{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 100%}
 .hx-art video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 100%}
 @keyframes bq{0%,100%{transform:rotate(0)}50%{transform:rotate(-2.4deg) translateY(calc(-6*var(--u)))}}
@@ -416,6 +416,7 @@ footer.site{background:var(--petrol);color:var(--mint);padding:calc(80*var(--u))
   .cat{scroll-snap-align:start}
   .cat-t{font-size:calc(18*var(--u))}
   .sd{grid-template-columns:1fr;gap:calc(16*var(--u))}
+  .clock{justify-content:center}
   .city{min-width:0}
   .head{flex-direction:column;align-items:flex-start}
   .grid{grid-template-columns:repeat(2,1fr);gap:calc(16*var(--u)) calc(14*var(--u))}
@@ -457,7 +458,7 @@ footer.site{background:var(--petrol);color:var(--mint);padding:calc(80*var(--u))
   .grid.g6{grid-template-columns:repeat(2,1fr)}
   .best-sub{margin:calc(-16*var(--u)) 0 calc(24*var(--u));font-size:calc(16*var(--u))}
   .hx{overflow-x:clip;margin-top:0;padding-top:calc(24*var(--u))}
-  .hx-panel{flex-direction:column;align-items:stretch;min-height:0;aspect-ratio:auto;padding-bottom:64vw}
+  .hx-panel{flex-direction:column;align-items:stretch;min-height:0;aspect-ratio:auto;padding-bottom:72vw}
   .hx .lead{font-size:calc(17*var(--u));margin-bottom:calc(22*var(--u))}
   .hx-cta{gap:calc(10*var(--u))}
   .hx-cta .btn{font-size:calc(17*var(--u));border-radius:calc(16*var(--u))}
@@ -495,6 +496,9 @@ h2,.best-t,.prem h2,.biz h2,.mani .big,.card-sec h2{font-size:var(--fs-h2);line-
 .rv-score .stars i{width:calc(22*var(--u));height:calc(22*var(--u))}
 .item.free .pr{color:var(--copper-d)}
 .item.free a{font-size:var(--fs-small);color:var(--copper-d);font-weight:600}
+/* no orphan words: never leave a single word alone on the last line */
+p,h1,h2,h3,h4,li,small,dd,q,figcaption,.lead{text-wrap:pretty}
+h1,h2,h3{text-wrap:balance}
 .mani .big{font-size:calc(76*var(--u));white-space:nowrap}
 @media (max-width:700px){.mani .big{font-size:var(--fs-h2);white-space:normal}}
 
@@ -603,11 +607,11 @@ h2,.best-t,.prem h2,.biz h2,.mani .big,.card-sec h2{font-size:var(--fs-h2);line-
 <section class="prem" id="premium" aria-labelledby="premT">
   <div class="wrap">
     <div class="prem-banner" data-r>
-      <img class="prem-img" src="assets/premium.webp" alt="ידיים של פלוריסטית מסדרות זר פרימיום של אדמוניות וורדי גן על שולחן עבודה" loading="lazy">
+      <img class="prem-img" src="assets/premium.webp" alt="זר פרימיום בעטיפה ורודה עם מדבקת JULI'S, על שולחן העבודה בסטודיו" loading="lazy">
       <div class="prem-copy">
         <span class="prem-tag">זרי פרימיום · בהזמנה 24 שעות מראש</span>
         <h2 id="premT">זר שמתוכנן<br><em>במיוחד</em> בשבילך.</h2>
-        <p>אדמוניות, ורדי גן ופרחים נדירים שאנחנו מזמינים מהמגדלים<br>במיוחד להזמנה שלך, ומסדרים ביד יום לפני המשלוח.</p>
+        <p>אדמוניות (פיונים), ורדי גן ופרחים נדירים שאנחנו מזמינים מהמגדלים<br>במיוחד להזמנה שלך, ומסדרים ביד יום לפני המשלוח.</p>
         <a class="btn btn-copper" href="https://wa.me/972533612024?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%20%D7%96%D7%A8%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D" target="_blank" rel="noopener">להזמנת זר פרימיום <span class="ar">←</span></a>
       </div>
     </div>
